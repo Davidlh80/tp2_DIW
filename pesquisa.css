@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --color1: #fffbff;
+    --color2: #c9b7c7;
+    --color3: #866a80;
+    --color4: #4d3147;
+    --color5: #0d0210;
+}
+
+.product h3 {
+    font-size: 18px;
+    color: var(--color4);
+    margin-top: 10px;
+    font-family: 'Montserra', sans-serif;
+}
+
+
+.product p {
+    font-size: 18px;
+    color: var(--color3);
+    margin-top: 10px;
+    font-family: 'Montserra', sans-serif;
+}
+
+.navbar {
+    background-color: var(--color2);
+}
+
+.barraPesquisa {
+    margin: 2em 0;
+    border-radius: 2px;
+}
+
+/* Formatação da product-grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product a {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.product a:hover {
+    background-color: var(--color3);
+}
+
+.product img {
+    width: auto;
+    height: 250px;
+}
+
+/* Estilos para a barra de pesquisa */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: var(--color4);
+}
+
+#searchInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.gambiarra {
+    background-color: var(--color4);
+}
+
+.final {
+    background-color: var(--color4);
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    color: var(--color2);
+    margin-top: 2em;
+}
+
+.final ul li a {
+    text-decoration: none;
+    color: var(--color1);
+}
+
+footer {
+    background-color: var(--color5);
+    padding: 2em 0;
+    color: var(--color1);
+    text-align: center;
+}
+
+.logopagamento {
+    width: 8%;
+}
+
+.logo {
+    width: 5%;
+}

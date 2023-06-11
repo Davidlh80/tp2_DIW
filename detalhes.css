@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --color1: #fffbff;
+    --color2: #c9b7c7;
+    --color3: #866a80;
+    --color4: #4d3147;
+    --color5: #0d0210;
+}
+
+.navbar {
+    background-color: var(--color2);
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.product-image img {
+    width: auto;
+    height: 300px;
+    border: 1px solid #ddd;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserra', sans-serif;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--color4);
+}
+
+.product-details a {
+    border: 1px solid #ddd;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-top: 2em;
+    padding: 10px 0;
+}
+
+.product-details a:hover {
+    background-color: var(--color3);
+}
+
+.product-details p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.product-description {
+    text-align: center;
+    font-family: 'Montserra', sans-serif;
+    margin: 0 5%;
+}
+
+.product-description p {
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Montserra', sans-serif;
+}
+
+.final {
+    background-color: var(--color4);
+    max-width: 1320px;
+    color: var(--color2);
+    margin-top: 2em;
+}
+
+.final ul li a {
+    text-decoration: none;
+    color: var(--color1);
+}
+
+footer {
+    background-color: var(--color5);
+    padding: 2em 0;
+    color: var(--color1);
+    text-align: center;
+}
+
+.logopagamento {
+    width: 8%;
+}
+
+.logo {
+    width: 5%;
+}
+
+.gambiarra {
+    background-color: var(--color4);
+}
